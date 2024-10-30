@@ -16,6 +16,9 @@
     flex-direction: row;
     padding: 29px 220px;
     background-color: #043873;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
 }
 
 .header-logo {
@@ -445,4 +448,8 @@
     border: none;
     border-radius: 6px;
     color: #fff;
+}
+
+.btn {
+    cursor: pointer;
 }
